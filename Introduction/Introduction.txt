@@ -1,0 +1,12 @@
+Open-Source -> Developed by Google
+High Performance, Simple, Productive
+
+Dart is a SDK -> Software Development Kit
+
+Key Features in Dart
+	Object Oriented 
+	Strongly Typed -> variable types known at compile time
+	Support for asynchronous Programming
+	Have 2 compilation processes 
+		JIT -> Just in Time - support Hot reload
+		AOT -> Ahead of Time

@@ -43,4 +43,14 @@ void main() {
   print('$str.length World'); // prints Hello.length World (shows property name)
   print('${str.length} World'); // prints 5 World (shows length of the string)
   print(str.length.toString() + 'world');
+
+  print('''This is a 
+  multi-line 
+  string''');
+
+  // print('This is not a
+  // multi-line 
+  // string'); // This will cause an error
+
+  print('This is a \n multi-line string'); //\n represents a newline
 }

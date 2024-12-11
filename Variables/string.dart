@@ -14,7 +14,6 @@ void main() {
   // Integer addition
   print(3 + 2); // prints 5 (adds two integers)
 
-  // Uncommenting the following line will cause an error
   // print("3" + 2); // Error: cannot concatenate a string and an integer
 
   // Converting integer to string for concatenation
@@ -42,15 +41,31 @@ void main() {
       '${str} World'); // prints Hello World (using interpolation with variable)
   print('$str.length World'); // prints Hello.length World (shows property name)
   print('${str.length} World'); // prints 5 World (shows length of the string)
-  print(str.length.toString() + 'world');
+  print(str.length.toString() +
+      'world'); // prints 5world (concatenates string and integer)
 
   print('''This is a 
   multi-line 
   string''');
 
   // print('This is not a
-  // multi-line 
+  // multi-line
   // string'); // This will cause an error
 
   print('This is a \n multi-line string'); //\n represents a newline
+
+  String toUpper = "Hello";
+  print(toUpper
+      .toUpperCase()); // prints HELLO (converts all characters to uppercase)
+
+  String toLower = "Hello";
+  print(toLower
+      .toLowerCase()); // prints hello (converts all characters to lowercase)
+
+  String trim = "Hello World";
+  print(trim.substring(0, 5)); // prints Hello
+
+  String replace = "Hello World";
+  print(replace.replaceFirst("Hello", "Goodbye")); // prints Goodbye World
+  print(replace.replaceAll("l", "x")); // prints Hexxo Worxd
 }

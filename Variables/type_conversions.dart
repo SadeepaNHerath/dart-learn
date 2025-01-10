@@ -28,6 +28,15 @@ void main() {
   double myHeight = 1.75;
   print(myHeight.toString().runtimeType); // Prints String
 
+  '''
+  The bool.toString() method is used to convert a boolean to a string.
+  ''';
   bool isAdult = myAge >= 18;
   print((isAdult.toString()).runtimeType); // Prints String
+
+  '''
+  The null type is used when a variable is not assigned a value.
+  ''';
+  Null myNullVariable = null;
+  print(myNullVariable.runtimeType); // Prints Null
 }
